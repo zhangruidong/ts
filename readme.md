@@ -1,6 +1,8 @@
 # TypeScript
 
-基于js派生的一门新的语言，浏览器不能直接运行，需要通过ts
+> 基于js派生一门新的语言（微软），浏览器不能直接运行，需要通过ts的编译器编译成js后才能被浏览器执行。
+> 安装编译器 `npm install -g typescript`
+> 安装好以后，就可以使用 tsc 命令来对 ts 文件进行编译
 
 
 ## 数据类型
@@ -30,3 +32,5 @@ ts 的声明语法和js不一样，ts是一个强类型语言，在声明变量/
 let name: string = "bob";
 name = "smith";
 ```
+
+## angular 初体验
