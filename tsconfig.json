@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    /*把ts编译成指定的模块化系统*/
+    "module": "commonjs",
+    /*保留ts中es5的部分*/
+    "target": "es5",
+    /*编译输出目录*/
+    "outDir": "./dist"
+  },
+  /*设置要编译的文件*/
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
