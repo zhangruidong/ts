@@ -8,7 +8,7 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Person = (function () {
+var Person = /** @class */ (function () {
     function Person(name) {
         this.username = name;
     }
@@ -16,7 +16,7 @@ var Person = (function () {
 }());
 var p1 = new Person("zrd");
 console.log(p1);
-var Animal = (function () {
+var Animal = /** @class */ (function () {
     function Animal(name) {
         this.username = name;
     }
@@ -25,7 +25,7 @@ var Animal = (function () {
     };
     return Animal;
 }());
-var Cat = (function (_super) {
+var Cat = /** @class */ (function (_super) {
     __extends(Cat, _super);
     function Cat() {
         return _super !== null && _super.apply(this, arguments) || this;

@@ -7,3 +7,6 @@
 enum keys {
     left=37,up,right,down
 }
+
+enum Color {Red,Green,Blue}
+let c: Color = Color.Green;

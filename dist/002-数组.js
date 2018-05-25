@@ -3,18 +3,12 @@
 *
 * 第二种方式是使用数组泛型，Array<元素类型>
 * */
-
-let list:number[]= [1,2,3,4]
-
-let list2:Array<number>= [3,4,5,6]
-
-
+var list = [1, 2, 3, 4];
+var list2 = [3, 4, 5, 6];
 /* 元组  Tuple */
-let x1: [string,number] = ["zzz",1111]
+var x1 = ["zzz", 1111];
 // let x2: [string,number] = ["zzz",1111,2222]
-
-x1[3] = "world"
-
+x1[3] = "world";
 console.log('====================================');
 console.log(x1);
 console.log('====================================');

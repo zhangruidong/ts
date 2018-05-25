@@ -10,11 +10,10 @@ interface Person{
     firstName: string,
     lastName: string
 }
-function greeter(person:Person){
+function greeter1(person:Person){
     return "hello,"+person.firstName+" "+person.lastName
 }
 var user = {
     firstName:"zhang",
     lastName: "ruidong"
 }
-console.log(greeter(user) );
