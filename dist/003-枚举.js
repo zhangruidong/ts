@@ -17,3 +17,16 @@ var Color;
     Color[Color["Blue"] = 2] = "Blue";
 })(Color || (Color = {}));
 var c = Color.Green;
+// Void
+function warnUser() {
+    alert("This is my warning message");
+}
+// Null和Undefined
+// 默认情况下null和undefined是所有类型的子类型。
+// 类型断言
+var someValue = "this is a string";
+// let stringLength: number = (<string>someValue).length
+var stringLength = someValue.length;
+console.log('====================================');
+console.log(stringLength);
+console.log('====================================');

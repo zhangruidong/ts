@@ -10,3 +10,22 @@ enum keys {
 
 enum Color {Red,Green,Blue}
 let c: Color = Color.Green;
+
+
+// Void
+function warnUser(): void {
+    alert("This is my warning message")
+}
+
+
+// Null和Undefined
+// 默认情况下null和undefined是所有类型的子类型。
+
+
+// 类型断言
+let someValue: any = "this is a string"
+// let stringLength: number = (<string>someValue).length
+let stringLength: number = (someValue as string).length
+console.log('====================================');
+console.log(stringLength);
+console.log('====================================');
