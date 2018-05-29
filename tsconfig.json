@@ -4,6 +4,8 @@
     "module": "commonjs",
     /*保留ts中es5的部分*/
     "target": "es5",
+    /* 装饰器特性 */
+    "experimentalDecorators": true,
     /*编译输出目录*/
     "outDir": "./dist"
   },
