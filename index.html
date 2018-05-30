@@ -3,9 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <title>zzzrd</title>
+    <style>
+        body {
+            background-color: blue;
+            margin: 0
+        }
+        .box {
+            width: 100%;
+            height: 400px;
+            display: flex;
+        }
+        .sec {
+            float: left;
+            height: 400px;
+
+        }
+        .sec1 {
+            flex: 400px;
+            background: pink
+        }
+        .sec2 {
+            flex: auto;
+            background: yellow
+        }
+        .sec3 {
+            flex: 400px;            
+            background: green
+        }
+
+        tr td:first-of-type {
+            background: #333
+        }
+
+        @media screen and (max-width: 1000px) {
+            body {
+                background-color:lightblue;
+            }
+            .sec1 {
+                flex: auto;
+                background: pink
+            }
+            .sec2 {
+                flex: 400px;
+                background: yellow
+            }
+            .sec3 {
+                flex: 400px;            
+                background: green
+            }
+
+        }
+        
+    </style>
+
 </head>
 <body>
+    <table border="0"   style="border-collapse:separate; ">
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+        <tr>
+            <td>400</td>
+            <td>500</td>
+            <td>600</td>
+        </tr>
+    </table>
+                
+    <div class="box">
+        <div class="sec1 sec"></div>
+        <div class="sec2 sec"></div>
+        <div class="sec3 sec"></div>
+    </div>
     <!--<div id="box">1</div>-->
-    <script src="dist/007-接口.js"></script>
+    <!-- <script src="dist/007-接口.js"></script> -->
 </body>
 </html>
